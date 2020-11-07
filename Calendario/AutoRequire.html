@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con autocomplete y requiere</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <label for="nombre">
+                <span>¿Cual es tu nombre?</span>
+                <input type="text" name="nombre" id="nombre" autocomplete="name">
+            </label><br>
+            <label for="correo">
+                <span>¿Cual es tu correo?</span>
+                <input type="email" name="correo" id="correo" autocomplete="email">
+            </label><br>
+            <label for="pais">
+                <span>¿Cual es tu pa&iacutes?</span>
+                <input type="text" name="pais" id="pais" autocomplete="country-name">
+            </label><br>
+            <label for="cp">
+                <span>¿Cual es tu c&oacutedigo postal?</span>
+                <input type="number" name="cp" id="cp" autocomplete="postal-code">
+            </label><br>
+            <label>
+                <input type="submit">
+            </label>
+        </form>
+    </main>
+</body>
+</html>
