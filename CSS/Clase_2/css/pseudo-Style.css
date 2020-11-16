@@ -15,3 +15,10 @@
     border-radius: 2px;
     text-decoration: none;
 }
+
+
+/* Pseudo clases */
+
+.main-nav__item a:hover{
+    color: darkgreen;
+}
