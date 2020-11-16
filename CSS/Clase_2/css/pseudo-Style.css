@@ -4,3 +4,7 @@
     padding: 0em;
     background-color: darkorange;
 }
+
+.main-nav__item{
+    display: inline-block;
+}
