@@ -1,0 +1,15 @@
+/* selector universal 
+resetear los estilos por default*/
+
+*{
+    box-sizing: border-box; /*Realizar un calculo del tamaño del elemento utilizando padding y border; no utiliza margin*/
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid green;
+    padding: 20px 35px; /*arriba y abajo   izquierda y derecha */
+}
