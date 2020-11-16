@@ -22,3 +22,8 @@
 .main-nav__item a:hover{
     color: darkgreen;
 }
+
+/* pseudo elementos */
+.main-nav__item a::after{
+    content: " | ";
+}
