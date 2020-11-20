@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: serif;
+}
+
+#page-title{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    font-family: monospace;
+    font-size: 18px;
+}
