@@ -5,7 +5,9 @@
 }
 
 h1{
+    color: purple;
     font-family: serif;
+    margin-bottom: 10px;
 }
 
 #page-title{
