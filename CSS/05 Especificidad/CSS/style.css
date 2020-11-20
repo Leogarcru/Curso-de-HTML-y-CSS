@@ -18,3 +18,9 @@ h1{
     font-family: monospace;
     font-size: 18px;
 }
+
+#main-nav{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0px;
+}
