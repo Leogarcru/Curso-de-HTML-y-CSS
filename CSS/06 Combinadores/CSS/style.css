@@ -1,4 +1,14 @@
-/* aplicar el color rojo a todas las etiquetas de parrafo cerca de un h2 */
+/* Hermano adyacente */
 h2 + p{
     color: red;
+}
+
+/* hermano general */
+h2 ~ p{
+    color: purple;
+}
+
+/* hijo */
+div > p {
+    color: green;
 }
