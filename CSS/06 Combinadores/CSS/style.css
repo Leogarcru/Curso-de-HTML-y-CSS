@@ -12,3 +12,8 @@ h2 ~ p{
 div > p {
     color: green;
 }
+
+/* descendiente */
+div p {
+    color: orangered;
+}
