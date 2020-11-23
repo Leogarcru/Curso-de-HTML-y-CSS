@@ -1,5 +1,6 @@
 /* medida absoluta en pixeles */
-p{
+/* eliminar el main del selector para observer el cambio */
+main p{
     font-size: 18px;
 }
 
