@@ -1,0 +1,16 @@
+/* medida absoluta en pixeles */
+p{
+    font-size: 18px;
+}
+
+/* medida relativa en porcentaje */
+p{
+    font-size: 50%;
+}
+
+/* combinacion de medidas */
+main{
+    background-color: orchid;
+    width: 80%;
+    height: 600px;
+}
