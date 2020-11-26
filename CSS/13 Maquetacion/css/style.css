@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Cabecera{
+    height: 10vh;
+    width: 100vw;
+    font-size: 2rem;
+    background-color: wheat;
+    min-width: 450px;
+}
+
+.Nav{
+    text-align: right;
+}
+
+.Nav li{
+    display: inline-block;
+    margin: 15px;
+    padding: 5px 10px 5px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+/*---Barra lateral---*/
+.principal{
+    height: 80vh;
+    width: 100vw;
+    font-size: 2rem;
+}
+.principal__Lateral{
+    position: absolute;
+    top: 10vh;
+    left: 0vw;
+    background-color: lightpink;
+    height: 80vh;
+    width: 20%;
+    min-width: 120px;
+    /* padding: 5px; */
+}
+
+.principal__Lateral div{
+    display: block;
+    margin: 10px auto 10px;
+    width: 80%;
+    min-width: 10%;
+    max-width: 150px;
+    height: 100px;
+    background-color: mediumaquamarine;
+    border-radius: 15px;
+    padding: 15px;
+}
+.principal__Texto{
+    position: absolute;
+    left: 20vw;
+    top: 10vh;
+    background-color: mediumpurple;
+    height: 80vh;
+    /* min-height: 80%h; */
+    width: 80%;
+    min-width: 300px;
+}
+/*---Footer---*/
+.Pie{
+    margin: 0 auto;
+    width: 100%;
+    min-width: 450px;
+    font-size: 2rem;
+    height: 10vh;
+    background-color: lightslategray;
+}
