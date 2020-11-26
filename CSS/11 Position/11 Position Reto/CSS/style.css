@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: silver;
+}
+.Padre{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.Titulo{
+    font-size: 1.5em;
+    margin: 10px auto 0px;
+    width: 80vw;
+    min-width: 100px;
+    max-width: 400px;
+    border-radius: 1em;
+    text-align: center;
+    color: whitesmoke;
+    padding: 5px;
+    background-color: slategrey;
+    position: relative;
+    top: 15px;
+}
+
+.Contenido{
+    text-align: justify;
+    background-color: teal;
+    color: whitesmoke;
+    margin: 0 auto;
+    border-radius: 1em;
+    padding: 20px 10px 10px;
+    width: 90vw;
+    min-width: 100px;
+    max-width: 500px;
+}

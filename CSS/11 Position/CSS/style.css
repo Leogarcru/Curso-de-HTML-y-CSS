@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padre{
+    border: 2px dotted;
+    border-color: royalblue;
+    display: inline-block;
+}
+
+.box{
+    display: inline-block;
+    background-color: salmon;
+    width: 100px;
+    height: 100px;
+}
+
+#dos{
+    background-color: seagreen;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
