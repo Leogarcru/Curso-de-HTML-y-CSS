@@ -14,7 +14,7 @@ body{
 
 .container{
     display: flex;
-    align-items: baseline;
+    align-items: flex-start;
     border: .3rem solid black;
     height: 50vh;
 }
@@ -26,11 +26,11 @@ body{
 
 .box1{
     background-color: blanchedalmond;
-    order: 1;
+    flex-grow: 1;
 }
 .box2{
     background-color: blueviolet;
-    order: 5;
+    flex-grow: 1;
 }
 .box3{
     background-color: lightcoral;
@@ -40,9 +40,7 @@ body{
 }
 .box5{
     background-color: rosybrown;
-    order: 6;
 }
 .box6{
     background-color: mediumseagreen;
-    order: 5;
 }
