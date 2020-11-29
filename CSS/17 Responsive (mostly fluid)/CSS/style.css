@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.C1, .C2, .C3, .C4, .C5{
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+}
+
+.C1{
+    background-color: khaki;
+}
+.C2{
+    background-color: lavender;
+}
+.C3{
+    background-color: lightblue;
+}
+.C4{
+    background-color: lightcoral;
+}
+.C5{
+    background-color: lightcyan;
+}
